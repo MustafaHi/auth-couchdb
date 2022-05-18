@@ -1,9 +1,9 @@
-// import { isMethodDeclaration } from "typescript";
-// import { request } from "undici"
+//| auth-couchdb 1.0
+//| https://github.com/MustafaHi/auth-couchdb
+
 require("dotenv").config();
 const request = require("undici").request;
 const crypto  = require("crypto");
-// import {crypto} from "crypto";
 
 const utils = {
     validateEmail: (email) => {
