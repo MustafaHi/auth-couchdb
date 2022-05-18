@@ -1,0 +1,31 @@
+{
+  "name": "x.auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap \"test/**/*.test.js\"",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "MustafaHi @ https://github.com/MustafaHi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "fastify": "^3.0.0",
+    "fastify-autoload": "^3.3.1",
+    "fastify-cli": "^2.13.0",
+    "fastify-plugin": "^3.0.0",
+    "fastify-sensible": "^3.1.0",
+    "typescript": "^4.5.2",
+    "undici": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.34",
+    "tap": "^15.0.9"
+  }
+}
