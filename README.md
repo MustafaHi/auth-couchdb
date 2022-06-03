@@ -33,6 +33,10 @@ COUCHDB_AUTH = "YWRtaW46YWRtaW4=" //| base64 encoded `name:password` of the admi
     email,
     password
 }
+// RETURN
+{
+    ok: true
+}
 ```
 
 #### Login
@@ -42,6 +46,11 @@ COUCHDB_AUTH = "YWRtaW46YWRtaW4=" //| base64 encoded `name:password` of the admi
 {
     email,
     password
+}
+// RETURN session generated info
+{
+    ok: true,
+    token: name::password
 }
 ```
 
